@@ -152,20 +152,14 @@ const Confetti = () => {
                         }
                     },
                     shape: {
-                        type: [
-                            "square",
-                            "triangle",
-                            "polygon"
-                        ],
+                        type: ["char"],
                         options: {
-                            polygon: [
-                                {
-                                    sides: 5
-                                },
-                                {
-                                    sides: 6
-                                }
-                            ]
+                            char: {
+                                value: ["💀"],
+                                font: "Verdana",
+                                style: "",
+                                weight: 400,
+                            }
                         }
                     }
                 }
